@@ -23,5 +23,6 @@ button {
     height: 70px;
     width: 200px;
     margin-top: 50px;
-    background-color: #2196F3
+    background-color: #2196F3;
+    font-size: large;
 }

@@ -12,7 +12,7 @@ var vari = 0;
 
 function moveDown () {
     vari = vari + 10;
-    img.style.margintop = vari + 'px';
+    img.style.marginTop = vari + 'px';
 }
 
 img.onclick = function() {

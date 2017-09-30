@@ -10,7 +10,7 @@ var img = document.getElementById('imgDev');
 
 var vari = 0;
 
-function moveDown() {
+function moveDown () {
     vari = vari + 10;
     img.style.margintop = vari + 'px';
 }

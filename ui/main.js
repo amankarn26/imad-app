@@ -16,5 +16,5 @@ function moveDown () {
 }
 
 img.onclick = function() {
-    var interval = setInterval(moveDown, 50);
+    var interval = setInterval(moveDown, 10);
 };

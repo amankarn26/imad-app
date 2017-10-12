@@ -13,19 +13,19 @@ var inc = 0;
 
 function moveDown () {
     
-    if(inc<=40)
+    if(inc<=35)
     {   
         vari = vari + 10;
         inc++;
         img.style.marginTop = vari + 'px';
     }
-    if(inc>40&&inc<80)
+    if(inc>35&&inc<70)
     {
         vari = vari - 10;
         inc++;
         img.style.marginTop = vari + 'px';
     }
-    if(inc == 80)
+    if(inc == 70)
     {
         inc = 0;
     }

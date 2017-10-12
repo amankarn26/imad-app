@@ -15,13 +15,13 @@ function moveDown () {
     
     if(inc<=35)
     {   
-        vari = vari + 1;
+        vari = vari + 5;
         inc++;
         img.style.marginTop = vari + 'px';
     }
     if(inc>35&&inc<70)
     {
-        vari = vari - 1;
+        vari = vari - 5;
         inc++;
         img.style.marginTop = vari + 'px';
     }

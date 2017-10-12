@@ -35,8 +35,8 @@ function moveDown () {
 }
 
 img.onclick = function() {
+    
+    var interval = setInterval(moveDown, 15);
     cntt++;
     cnt.innerHTML = cntt + "stop";
-    var interval = setInterval(moveDown, 15);
-    
 };

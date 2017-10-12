@@ -19,6 +19,10 @@ body {
 .img-medium {
     height: 200px;
 }
+
+.right{
+    text-align : right;
+}
 button {
     height: 70px;
     width: 200px;

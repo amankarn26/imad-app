@@ -28,6 +28,7 @@ function moveDown () {
     if(inc == 70)
     {
         inc = 0;
+        vari = 0;
     }
 }
 

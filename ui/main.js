@@ -6,6 +6,8 @@ ele.innerHTML = "new value";
 
 //move img
 
+var cnt = document.getElementById('countt');
+var cntt = 0;
 var img = document.getElementById('imgDev');
 
 var vari = 0;
@@ -33,5 +35,8 @@ function moveDown () {
 }
 
 img.onclick = function() {
+    cnt++;
+    cnt.innerHTML = cnt + "stop";
     var interval = setInterval(moveDown, 15);
+    
 };

@@ -9,11 +9,26 @@ ele.innerHTML = "new value";
 var img = document.getElementById('imgDev');
 
 var vari = 0;
+var inc = 0;
 
 function moveDown () {
-    vari = vari + 10;
-    if(vari<400)
-    img.style.marginTop = vari + 'px';
+    
+    if(inc<=40)
+    {   
+        vari = vari + 10;
+        inc++;
+        img.style.marginTop = vari + 'px';
+    }
+    if(inc>40&&inc<80)
+    {
+        vari = vari - 10;
+        inc++;
+        img.style.marginTop = vari + 'px';
+    }
+    if(inc == 80)
+    {
+        inc = 0;
+    }
 }
 
 img.onclick = function() {

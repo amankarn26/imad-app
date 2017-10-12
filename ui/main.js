@@ -12,7 +12,7 @@ var vari = 0;
 
 function moveDown () {
     vari = vari + 10;
-    if(vari<1000)
+    if(vari<800)
     img.style.marginTop = vari + 'px';
 }
 
